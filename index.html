@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>TonyAdmin</h2>
+
+    <ul>
+      <li>Dashboard</li>
+      <li>Users</li>
+      <li>Products</li>
+      <li>Settings</li>
+      <li>Logout</li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <header>
+      <h1>Admin Dashboard</h1>
+    </header>
+
+    <!-- Cards -->
+    <section class="cards">
+
+      <div class="card">
+        <h3>Users</h3>
+        <p>120</p>
+      </div>
+
+      <div class="card">
+        <h3>Products</h3>
+        <p>85</p>
+      </div>
+
+      <div class="card">
+        <h3>Orders</h3>
+        <p>42</p>
+      </div>
+
+    </section>
+
+    <!-- Table -->
+    <section class="table-section">
+
+      <h2>Recent Users</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>John Doe</td>
+            <td>john@email.com</td>
+            <td>User</td>
+            <td>
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Jane Smith</td>
+            <td>jane@email.com</td>
+            <td>Admin</td>
+            <td>
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
